@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: dubbo-sample
+
+server:
+  port: 10000
+
+dubbo:
+  registry:
+    address: zookeeper://localhost:2182
+  metadata-report:
+    address: zookeeper://localhost:2182
